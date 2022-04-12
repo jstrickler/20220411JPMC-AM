@@ -1,0 +1,2 @@
+print("Wombats are fun!")
+
