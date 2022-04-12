@@ -2,7 +2,7 @@
 
 max_value = 26
 min_value = 0
-tries = 1
+tries = 0
 
 while True:
     guess = (max_value + min_value) // 2
@@ -19,7 +19,7 @@ while True:
         print("I got it in {} tries!".format(tries + 1))
         break
     else:
-        print("Please enter h, l, or y")
+        print("Please enter h, l, or y (q to quit)")
 
     if answer in ("h", "l"):
         tries += 1  # tries = tries + 1
