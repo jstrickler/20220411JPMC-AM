@@ -38,6 +38,7 @@ print(airports.setdefault('RDU', 'Durham'))
 print("airports: {}".format(airports))
 print()
 
+#  for key, value in DICT.items(): ...
 for code, name in airports.items():
     print(code, name)
 print('-' * 60)
