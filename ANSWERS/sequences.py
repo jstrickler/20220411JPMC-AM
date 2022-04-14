@@ -9,10 +9,9 @@ fruits = [
 
 for c in ctemps:
     f = ((9 * c) / 5) + 32
-    print("{:.1f} C is {:.1f} F".format(c, f))
+    print("{:5.1f} C is {:5.1f} F".format(c, f))
 
 print()
 
 clean_fruits = [f.strip().lower() for f in fruits]
-
 print(clean_fruits)
